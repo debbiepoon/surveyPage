@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <style>
+        /* Same CSS as the homepage */
+        body {
+            background-color: #fff;
+            text-rendering: geometricPrecision;
+            font-family: GTA-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            line-height: 1.3888;
+            color: #1f487e;
+        }
+
+        main {
+            display: block;
+            unicode-bidi: isolate;
+        }
+
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 1200px;
+            width: 80%;
+        }
+
+        .fea-hq {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #1f487e;
+            text-align: center;
+        }
+
+        a {
+            color: #066aab;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Iframe Styling */
+        .iframe-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; /* Aspect Ratio 16:9 */
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="fea-hq">
+            <div class="container">
+                <h1>Questionnaire</h1>
+
+                <p>Please finish the questionnaire at below.</p>
+
+                <div class="iframe-container">
+                    <iframe src="https://edinburghinformatics.eu.qualtrics.com/jfe/form/SV_cYHTTWApnuqfSVo" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
